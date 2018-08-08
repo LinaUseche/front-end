@@ -1,0 +1,60 @@
+	.menu{
+		float: left;
+		height: 34px;
+		background-color: #404040;
+		padding: 7px 100px 0px 130px;
+	}
+	.menu ul {	
+		display: flex;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		float: right;
+	}
+	.menu  a {
+		display: block;
+		padding: 8px;
+		margin: 1px 30px 5px 0px;
+		text-decoration: none;
+		color: #fff;
+		font-size: 14px;
+		width: 110px;
+		font-family: Arial;
+
+	}
+	.menu ul li ul {
+		display: none;
+	}
+	.menu ul li a:hover + ul, .menu ul li ul:hover {
+		display: block;
+	}
+
+	.curuba a{
+		background-color: #ff8c69;
+	}
+	.curuba a:hover{
+		background-color: #ff7f50;
+		
+	}
+	.morado a{
+		background-color: #800080;
+	}
+	.morado a:hover{
+		background-color: #4b0082;
+	}
+	.azul a{
+		background-color: #0000cc;
+	}
+	.azul a:hover{
+		background-color: #0000ff;
+	}
+	.marron a{
+		background-color: #BD6F13;
+	}
+	.marron a:hover{
+		background-color: #DB8815;
+	}
+	.ancla a{
+		width: 120px;
+		margin-left: 60px;
+	}

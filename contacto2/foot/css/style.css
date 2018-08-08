@@ -1,0 +1,33 @@
+*{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 10px 0px 10px;
+}
+.footer{
+	background-color: #404040;
+	width: 115%;
+	height: 150px;
+}
+.redes{
+	padding: 20px 80px 0px 0px;
+	float: right;
+}
+.form label{
+	font-size: 50px;
+}
+label{
+	color: #fff;
+}
+input[type="radio"]{
+	display: none;
+}
+label:hover{
+	color: #ffff00; 
+}
+@media screen and (max-width: 599px){
+ .footer{
+ 	margin: 0px;
+ }
+ .redes{ 
+ 	margin: 5% 0%  0% 0%;
+ }
+}

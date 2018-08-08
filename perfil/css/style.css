@@ -1,0 +1,138 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(../images/fondo.jpg)center top;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: Arial;
+}
+.rectangulo{
+	width: 750px;
+	height: 150px;
+	background-color: #000;
+	color: #fff;
+	top: 35%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -90%);
+	padding: 5px 0px;
+	margin-bottom: 100px;
+	}
+/*user*/
+.rectangulo .logo{
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(30% - 200px);
+}
+/*datos*/
+	.informacion{
+		text-align: left;
+		font-size: 23px;
+		margin-left: 210px;
+
+	}
+	.informacion li{
+		line-height: 35px;
+		list-style-type: none;
+	}
+	.informacion2{
+		text-align: left;
+		font-size: 23px;
+		margin-left: 248px;
+		margin-top: -100px;
+	}
+/*contenedor de pantalla*/
+	.rectangulo2{
+		width: 750px;
+		height: 300px;
+		background-color: rgba(0,0,0,.5);
+		margin-top: 10%;
+		margin-bottom: 20px;
+	}
+	.pantalla{
+		padding: 40px 0px 20px 70px;
+	}
+	.iframehead{
+	width: 100%;
+	height: 100%;
+	border: 0px;
+}
+.iframefoot{
+	width: 1257px;
+	height: 186px;
+	border: 0px;
+	margin: 100px 0 0 -257px;
+}
+/*Responsive*/
+@media screen and (min-width: 600px) and (max-width: 860px){
+.rectangulo{
+	width: 700px;
+	height: 120px;
+	margin: 0px;
+	}
+.rectangulo .logo{
+	width: 100px;
+	height: 100px;
+	margin: 55px 0px 0px 0px;
+	}
+.informacion{
+		font-size: 17px;
+		margin-left: 120px;
+
+	}
+.informacion li{
+		line-height: 30px;
+	}
+.informacion2{
+		font-size: 17px;
+	}
+.rectangulo2{
+		width: 700px;
+		height: 300px;
+		margin: 10% 50px 0px 0px;
+		float: left;
+	}
+}
+
+@media screen and (max-width: 599px){
+	.rectangulo{
+	width: 500px;
+	height: 250px;
+	margin: 0px;
+	}
+.rectangulo .logo{
+	width: 100px;
+	height: 100px;
+	margin: 55px 0px 0px 60px;
+}
+	.informacion{
+		font-size: 17px;
+		margin-left: 120px;
+		display: block;
+
+	}
+	.informacion li{
+		line-height: 35px;
+	}
+	.informacion2{
+		font-size: 17px;
+		margin-left: 0px;
+		margin-top: 0px;
+		display: block;
+	}
+	.rectangulo2{
+		width: 500px;
+		height: 300px;
+		margin-top: 70px;
+		margin-bottom: 20px;
+	}
+	.pantalla{
+		padding: 40px 0px 0px 60px;
+	}
+}
